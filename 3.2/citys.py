@@ -23,6 +23,25 @@ for city in citys:
 
 print("不想再去的城市是:" + citys.pop(0));
 
+citys.append("杭州");
+
+citys.insert(0, "无锡");
+
+citys.append("佛山");
+
+del(citys[0]);
+
+
+for city in citys:
+     print("去过的城市：" + city);
+     
+
+citys.remove("佛山");     
+
+
+print(str(len(citys)));
+
+     
 
 
 
