@@ -33,6 +33,9 @@ for invite in inviteList:
     print("我重新邀请"+ invite + "参加晚餐。")
     
 
+print("暂时一共邀请了"+ str(len(inviteList)) + "嘉宾")    
+    
+
 print("收到消息，餐桌没到。只能邀请两位嘉宾。")
 
 i = 0;
@@ -47,7 +50,7 @@ for invite in inviteList:
     print(invite + ",你依然获得邀请。")
     
 print("晚宴结束。")
-del(inviteList[1]);
+del(inviteList[0]);
 del(inviteList[0]);
 print("在场的客人:" ) 
 print(inviteList)
