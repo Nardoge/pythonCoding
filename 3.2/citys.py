@@ -36,7 +36,12 @@ for city in citys:
      print("去过的城市：" + city);
      
 
-citys.remove("佛山");     
+citys.remove("佛山");
+
+print(sorted(citys));
+
+citys.reverse();
+print(citys);
 
 
 print(str(len(citys)));
