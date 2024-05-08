@@ -63,3 +63,15 @@ file 4.4 --> friend_pizza.py
 
 - 4-12 使用多个循环：在本节中，为节省篇幅，程序foods.py的每个版本都没有使用for循环来打印列表。请选择一个版本的foods.py，在其中编写两个for循环，将各个食品列表都打印出来。
 file 4.4 --> foods.py
+
+- 5-1 条件测试：编写一系列条件测试；将每个测试以及你对其结果的预测和实际结果都打印出来。你编写的代码应类似于下面这样：
+```pyton
+car = 'subaru'
+print("Is car == 'subaru'?I predict True.")
+print(car == 'subaru')
+   　
+print("\nIs car == 'audi'?I predict False.")
+print(car == 'audi')
+```
+详细研究实际结果，直到你明白了它为何为True或False。·创建至少10个测试，且其中结果分别为True和False的测试都至少有5个。
+- 5-2 更多的条件测试：你并非只能创建10个测试。如果你想尝试做更多的比较，可再编写一些测试，并将它们加入到conditional_tests.py中。对于下面列出的各种测试，至少编写一个结果为True和False的测试。·检查两个字符串相等和不等。·使用函数lower()的测试。·检查两个数字相等、不等、大于、小于、大于等于和小于等于。·使用关键字and和or的测试。·测试特定的值是否包含在列表中。·测试特定的值是否未包含在列表中
